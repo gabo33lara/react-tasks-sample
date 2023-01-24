@@ -13,5 +13,10 @@ export const tasks = [
         'id': 3, 
         'Title': 'My third task', 
         'Desc': 'Capitalize with web apps', 
+    },
+    {
+        'id': 4, 
+        'Title': 'tarea 4', 
+        'Desc': 'Capitalize with web apps', 
     }
 ];
