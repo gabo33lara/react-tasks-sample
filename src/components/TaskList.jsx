@@ -11,7 +11,7 @@ function TaskList() {
     return (
         <div className="m-auto text-center">
             <h1 className="text-5xl font-extrabold capitalize mb-[30px]">tasks found: <span className="text-7xl text-green-500 font-extrabold">{tasks.length}</span></h1>
-            <div className='grid grid-cols-4 gap-6'>
+            <div className='grid grid-cols-1 gap-6 lg:grid-cols-4'>
                 {tasks.map((task) => (
                     <TaskCard key={task.id} task={task} />
                 ))}
